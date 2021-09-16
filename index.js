@@ -48,10 +48,18 @@ function play(question, answer){
 for(var i=0;i<quiz.length;i++){
   play(quiz[i].question, quiz[i].answer)
 }
-var HighScore=[{
-  name : userName,
-  score : score
-}]
+var HighScore=[name1]
+
+var name1 = {
+  name : "Nisha",
+  score : 5
+}
+if(score >= 4)
+{
+  console.log("Send me your score I will add you in Highscorers")
+  console.log("Highscorer name - " + name1.name + " score - " + name1.score)
+}
+
 
 // console.log("YAY your total score is ",score)
 
