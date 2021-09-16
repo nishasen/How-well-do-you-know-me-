@@ -54,17 +54,18 @@ var name1 = {
   name : "Nisha",
   score : 5
 }
-if(score >= 4)
-{
-  console.log("Send me your score I will add you in Highscorers")
-  console.log("Highscorer name - " + name1.name + " score - " + name1.score)
-}
-
 
 // console.log("YAY your total score is ",score)
 
  const chalk = require('chalk');
 console.log(chalk.yellow.bgCyanBright("YAY your total score is ",score))
+
+if(score >= 4)
+{
+  console.log("Send me your score I will add you in Highscorers")
+  console.log(chalk.blue("Highscorer name - " + name1.name + " score - " + name1.score))
+}
+
 // console.log(chalk.yellow.bgBlueBright('Hello world!'));
 // console.log(chalk`
 // 	There are {green.bold 5280 feet} in a mile.`)
