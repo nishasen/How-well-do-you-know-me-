@@ -53,10 +53,10 @@ var HighScore=[{
   score : score
 }]
 
-console.log("YAY your total score is ",score)
+// console.log("YAY your total score is ",score)
 
-// const chalk = require('chalk');
-
+ const chalk = require('chalk');
+console.log(chalk.yellow.bgCyanBright("YAY your total score is ",score))
 // console.log(chalk.yellow.bgBlueBright('Hello world!'));
 // console.log(chalk`
 // 	There are {green.bold 5280 feet} in a mile.`)
